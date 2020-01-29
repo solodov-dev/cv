@@ -66,9 +66,10 @@
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[russian]{babel}
 
-\usepackage[default]{raleway}
-%\usepackage[defaultsans]{droidsans}
+%\usepackage[default]{raleway}
+\usepackage[defaultsans]{droidsans}
 %\usepackage{cmbright}
 %\usepackage{fetamont}
 %\usepackage[default]{gillius}
