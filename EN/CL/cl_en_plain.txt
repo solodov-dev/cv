@@ -1,11 +1,9 @@
-Уважаемый НR менеджер компании SMIT!
+Dear HR!
 
-Меня зовут Андрей Солодов. Я очень увлечен всем, что связано с компьютерами, программированием, веб-разработкой и Open Source. В данный момент я ищу компанию, в которой мог бы применить свои знания на практике и дальше развиваться в этой сфере.
+My name is Andrey Solodov. I am immensely interested in everything connected to computers, programming and web development. I am interested in this position and I am looking for a company where I could apply my knowledge as well as learn more and grow in the field of Frontend Web development.
 
-Последний год я самостоятельно изучал front-end веб-разработку. Закончил онлайн-курс CS50 от Гарвардского Унивеситета, а также онлайн курс The Odin Project (Front-End path). Все проекты, написанные во время курсов, и мои собственные работы вы можете посмотреть на моем GitHub. В процессе написания я использовал технологии HTML, CSS/SASS, JavaScript, Vue.js, Webpack, Git, Google Firebase, NPM, PHP.
+I have been learning Web Development for one year. I have finished CS50 from Harvard University and The Odin Project. You can take a look at the projects done during my studies and all my personal projects at my GitHub page (https://github.com/solodov-dev). During the development I have used such technologies as: HTML, CSS/SASS, JavaScript, Vue.js, Git, Webpack, Google Firebase, Npm, PHP.
 
-Параллельно с изучением технической части читаю книги по основам структур данных и алгоритмам. Изучаю различные подходы в программировании: ООП и функциональное программирование. Также в данныймомент изучаю React.js. В совершенстве владею английским языком и ивритом. Я закончил Иерусалимский Университет со степенью бакалавра по специальности филология. 12 лет жил в Израиле.
+Apart from studying the technical part I read books on data structures and algorythms, OOP and Fucntional Programming. Currently I am learning React.js. I speak 3 languages: English, Russian and Hebrew. I have graduated from the Hebrew University of Jerusalem with Bachellor's degree in linguistics.
 
-Я внимательный и целеустремленный, постоянно работаю над собой и
-открыт для новых знаний. Главная причина, по которой меня интересует
-данная вакансия - желание работать в группе высококвалифицированных специалистов и совершенствовать свои навыки. Я буду рад стать чаcтью компании SMIT и развиваться вместе с вами.
+I am attentive to details and determined. My biggest motivation is to learn and mature under the professional mentorship, to acqire new knowledge and skills in the field. I would be happy to become a part of your team and grow together with your company.

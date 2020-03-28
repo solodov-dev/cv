@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.1.28)  29 JAN 2020 14:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.2.12)  16 FEB 2020 09:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1057,10 +1057,10 @@ Package rerunfilecheck Info: File `cv_ru.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 21036 strings out of 492167
- 401834 string characters out of 6131558
+ 21039 strings out of 492167
+ 401902 string characters out of 6131558
  515115 words of memory out of 5000000
- 25018 multiletter control sequences out of 15000+600000
+ 25021 multiletter control sequences out of 15000+600000
  44315 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,8n,71p,423b,691s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1071,7 +1071,7 @@ nc/dvips/droid/a_55mctf.enc}</usr/share/texmf-dist/fonts/type1/ascender/droid/d
 roidsans/DroidSans-Bold.pfb></usr/share/texmf-dist/fonts/type1/ascender/droid/d
 roidsans/DroidSans.pfb></usr/share/texmf-dist/fonts/type1/public/fontawesome/Fo
 ntAwesome.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on cv_ru.pdf (1 page, 93726 bytes).
+Output written on cv_ru.pdf (1 page, 93556 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
