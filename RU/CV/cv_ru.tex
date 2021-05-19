@@ -19,7 +19,7 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
+\graphicspath{ {./images/} }
 \documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
 
 %----------------------------------------------------------------------------------------
@@ -29,38 +29,20 @@
 %----------------------------------------------------------------------------------------
 %	TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
-
-\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	% If your name is very short, use just one of the lines below
-	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+\begin{minipage}{3.5cm}
+    \includegraphics[width=3.3cm]{images/portrait.JPG}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth} % 45% of the page width for a name section
 	\colorbox{purple}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Андрей}}}}} % First name
 	
 	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Солодов}}}}} % Last name
 	
 	\vspace{6pt}
-	
 	{\huge Front-end веб-разработчик} % Career or current job title
 \end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{Phone}{12}{+7 (961) 293 3630}\\
-	\icon{At}{12}{\href{mailto:solodov.dev@gmail.com}{solodov.dev@gmail.com}}\\	
-\end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{Globe}{12}{\href{https://solodov.dev}{solodov.dev}}\\
-	\icon{Github}{12}{\href{https://github.com/solodov-dev}{github.com/solodov-dev}}\\
-\end{minipage}
 
-\vspace{0.5cm}
+
+
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
@@ -68,22 +50,20 @@
 
 \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-Front-end веб-разработчик, решающий поставленные перед ним задачи. Текущие интересы: JavaScript разработка, Linux и графический дизайн. Планы на будущее: изучение Node.js (Express.js) и Angular.	
+Front-end веб-разработчик, решающий поставленные перед ним задачи. Текущие интересы: TypeScript/React разработка, Linux и графический дизайн. Планы на будущее: изучаю Node.js (Express.js).	
   % About
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	\begin{barchart}{5.5}
-    \baritem{HTML}{90}
+		\baritem{JavaScript/Typescript}{90}
+    \baritem{React}{85}
     \baritem{CSS/SASS}{80}
-		\baritem{JavaScript}{70}
-    \baritem{Vue.js}{60}
-    \baritem{Angular}{40}
-		% \baritem{Webpack}{40}
-		% \baritem{Bootstrap}{30}
+    \baritem{Vue.js}{40}
 	\end{barchart}
 \end{minipage}
+
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
@@ -92,46 +72,27 @@ Front-end веб-разработчик, решающий поставленны
 
 \begin{entrylist}
   \entry
-      {2019 --  }
+      {2020 --}
       {Front-end разработчик}
-      {Фрилансер}
-      {Создание front-end на сайтах для частных клиентов.}
+      {Sebbia}
+      {Создание сайтов и систем управления спортивными мероприятиями для спортивных организаций и клубов. Создание сайтов и систем управления контентом для финансовых организаций. 
+      Разработка HTML5 игр. Работа на стеке React/Typescript. В работе испльзовались такие инструменты как: React, Typescript, Gatsby, CSS Modules, AntDesign, MaterialUI, Storybook и другие.}
 \end{entrylist}
 
 \begin{entrylist}
   \entry
-      {2015 --  }
+      {2019}
+      {Front-end разработчик}
+      {Фрилансер}
+      {Создание сайтов для частных клиентов.}
+\end{entrylist}
+
+\begin{entrylist}
+  \entry
+      {2015 -- 2019}
       {Преподаватель английского языка и иврита}
       {Языковая школа Goodwin}
       {Проведение групповых и индивидуальных занятий. Подготовка учебных материалов.}
-\end{entrylist}
-
-%----------------------------------------------------------------------------------------
-% PROJECTS
-%----------------------------------------------------------------------------------------
-\cvsect{Проекты}
-
-\begin{entrylist}
-   \entry
-    {01/2020}
-    {"ТЦ"\ Парус}
-    {\href{https://parus-nalchik.ru}{parus-nalchik.ru}}
-    {Сайт для строительного гипермаркета. Сайт написан на PHP с использованием JavaScript для раздела галереи.
-\\ \texttt{PHP}\slashsep\texttt{JavaScript}}
-
- \entry
-    {11/2019}
-    {Rad.io}
-    {\href{https://solodov-dev.github.io/rad-io}{solodov-dev.github.io/rad-io}}
-    {Приложение для прослушивания ваших любимых онлайн-трансляций. Возможность сохранения своих любимых радиостанций в
-вашем персональном плей-листе. Для данного проекта использовались Vue.js в качестве фреймворка для front-end и Firebase в качестве back-end.
-\\ \texttt{Vue.js}\slashsep\texttt{Firebase}\slashsep\texttt{Open Radio API}}
-
- \entry
-    {09/2019}
-    {Интерактивная карта России}
-    {\href{https://solodov-dev.github.io/russia}{solodov-dev.github.io/russia}}
-    {Интерактивная карта создана с использованием технологий SVG и Vue.js. Вы можете узнать об известных людях, животных и местах России.\\ \texttt{SVG}\slashsep\texttt{Vue.js}}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
@@ -140,6 +101,12 @@ Front-end веб-разработчик, решающий поставленны
 \cvsect{Образование}
 
 \begin{entrylist}
+  \entry
+      {09/2020 --}
+      {\href{https://www.udemy.com/course/nodejs-the-complete-guide/}{Онлайн курс NodeJS/Express}}
+      {\href{https://www.udemy.com/course/nodejs-the-complete-guide/}{NodeJS - The complete guide}}
+      {Курс включает в себя изучение NodeJS и создание FullStack/Backend приложений на фреймворке ExpressJS. Также изучаются такие инструменты как: PostgreSQL, MongoDB, GraphQL}
+
   \entry
       {04/2019 -- 10/2019}
       {\href{https://www.theodinproject.com}{Онлайн курс по web-разработке}}
@@ -180,6 +147,7 @@ Front-end веб-разработчик, решающий поставленны
   
   \textbf{Photoshop} - высокий \\
   \textbf{Figma} - средний \\ 
+  \textbf{VIM} - средний \\ 
   \textbf{\LaTeX} - начинающий \\ 
 	
 	\end{minipage}
@@ -193,6 +161,22 @@ Front-end веб-разработчик, решающий поставленны
 	\end{minipage}
 \hfill
 
+\cvsect{Контакты}
+\begin{minipage}[t]{1\textwidth}
+	\vspace{1pt} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Phone}{12}{+7 (961) 293 3630}
+	\hfill
+	\icon{At}{12}{\href{mailto:solodov.dev@gmail.com}{solodov.dev@gmail.com}}
+	\hfill
+	\icon{Globe}{12}{\href{https://sldv.link}{sldv.link}}
+	\hfill
+	\icon{Github}{12}{\href{https://github.com/solodov-dev}{github.com/solodov-dev}}
+\end{minipage}
+
+\vspace{0.5cm}
 %----------------------------------------------------------------------------------------
 
 \end{document}
